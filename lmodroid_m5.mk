@@ -11,7 +11,7 @@ PRODUCT_IS_ATV := true
 $(call inherit-product, device/google/atv/products/atv_base.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_tv.mk)
+$(call inherit-product, vendor/lmodroid/config/common_full_tv.mk)
 
 # Inherit device configuration
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -22,7 +22,7 @@ PRODUCT_DEVICE := m5
 PRODUCT_GMS_CLIENTID_BASE := android-askey-tv
 PRODUCT_MANUFACTURER := bananapi
 PRODUCT_MODEL := BPI-M5
-PRODUCT_NAME := lineage_m5
+PRODUCT_NAME := lmodroid_m5
 
 PRODUCT_GMS_CLIENTID_BASE := android-droid-tv
 
